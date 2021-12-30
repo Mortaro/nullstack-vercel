@@ -19,7 +19,7 @@ Add the following `vercel.json` to the root folder in order to redirect all requ
   "version": 2,
   "functions": {
     "api/nullstack.js": {
-      "includeFiles": "**/**"
+      "includeFiles": ".production/**"
     }
   },
   "routes": [
